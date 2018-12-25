@@ -39,6 +39,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    '~~/modules/typescript.js',
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios'
   ],
@@ -57,7 +58,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }

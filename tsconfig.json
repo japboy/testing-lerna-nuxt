@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "types": [
+      "cookie",
+      "express",
+      "http-proxy-middleware",
+      "jest",
+      "lru-cache",
+      "morgan",
+      "node",
+      "qs"
+    ],
+    "sourceMap": true,
+    "noUnusedLocals": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

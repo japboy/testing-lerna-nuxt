@@ -4,9 +4,37 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "lerna": "^3.8.0"
+    "cross-env": "5.2.0",
+    "npm-run-all": "4.1.5",
+    "rimraf": "2.6.2"
   },
   "devDependencies": {
-    "create-nuxt-app": "^2.1.1"
+    "@mapbox/stylelint-processor-arbitrary-tags": "0.2.0",
+    "@types/jest": "23.3.10",
+    "@types/node": "10.12.17",
+    "@vue/server-test-utils": "1.0.0-beta.27",
+    "@vue/test-utils": "1.0.0-beta.27",
+    "bless": "4.0.4",
+    "bundlesize": "0.17.0",
+    "dredd": "5.4.1",
+    "eclint": "2.8.1",
+    "eslint": "5.10.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-import-resolver-webpack": "0.10.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-vue": "5.0.0",
+    "firebase-admin": "6.3.0",
+    "firebase-functions": "2.1.0",
+    "firebase-tools": "6.1.2",
+    "glob": "7.1.3",
+    "globby": "8.0.1",
+    "jest": "23.6.0",
+    "jest-serializer-vue": "2.0.2",
+    "lerna": "3.6.0",
+    "stylelint": "9.9.0",
+    "stylelint-config-standard": "18.2.0",
+    "ts-jest": "23.10.5",
+    "typescript": "3.2.2",
+    "typescript-eslint-parser": "21.0.2"
   }
 }
